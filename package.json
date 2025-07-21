@@ -5,6 +5,7 @@
   "type": "module",
   "homepage": "https://giriprasath18V.github.io/amc-km-portal",
   "scripts": {
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -34,10 +35,5 @@
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.3.0",
     "vite": "^5.4.2"
-  },
-  "homepage": "https://github.com/yourusername/arcticvault-cold-storage",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/yourusername/arcticvault-cold-storage.git"
   }
 }
